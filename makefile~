@@ -1,5 +1,5 @@
 juego: soldado.o Arquero.o escuadron.o Main.o
-	g++ soldado.o Arquero.o escuadron.o Main.o -o juego
+	g++ soldado.o Arquero.o escuadron.o Main.o -o game
 Main.o:	Main.cpp Arquero.h escuadron.h soldado.h
 	g++ -c Main.cpp
 soldado.o:	soldado.cpp soldado.h
